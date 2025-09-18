@@ -19,3 +19,6 @@ function lastLetter(str) {
 }
 
 console.log(lastLetter("abcd"))
+
+  let namea = prompt("What's your name?");
+                console.log("Hello, " + namea+ "!");

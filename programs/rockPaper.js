@@ -29,7 +29,7 @@ readline.question('One...Two...Three...Start: ', userInput => {
   } else if (userChoice === computerChoice) {
     console.log("IT'S A TIE!");
   } else if (words.includes(userChoice)) {
-    console.log("COMPUTER WON!");
+    console.log("COMPUTER WON!!");
   } else {
     console.log("Invalid user input. Please choose rock, paper, or scissors.");
   }
